@@ -1,4 +1,4 @@
-# Coding challenge to Develop REST APIs using Spring boot 
+# Coding challenge Project to Develop REST APIs using Spring boot 
 
 ## The Challenge
 
@@ -16,15 +16,7 @@ As we are using user story format to specify our requirements, here are the user
 If you think that your service would require storage, please use H2 for simplicity, even if this would not be your choice if 
 you would implement an endpoint for real clients. 
 
-We are looking out for the following aspects in your submission:
-- Well structured and thought-through api and endpoint design 
-- Clean code
-- Application of best practices & design patterns
 
-
-That being said it is not enough to "just make it work", show your full potential to write excellent software
- for Crewmeister ! 
- 
 ## Setup
 #### Requirements
 - Java 11 (will run with OpenSDK 15 as well)
