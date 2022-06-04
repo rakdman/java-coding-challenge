@@ -89,3 +89,28 @@ This end point converts the input amount to EUR based on CurrencyUnit(Code) and 
 [a] The URLs from [Bundesbank Daily Exchange Rates] should be mentioned in the exchangerate.properties files. When spring boot application starts it will load all the data into H2 memory based database. Sample URLs are already mentioned in the property file.
 
 [b] Number of threads for loading the data can be configured in application.properties file under tag name "number-of-threads".
+
+
+###Screen shots
+
+Description: List of all currencies:
+
+![image](https://user-images.githubusercontent.com/59464659/171994464-e89efc45-54f7-42ce-9229-aa4778182b07.png)
+
+Description: List of all exchange rates:
+
+![image](https://user-images.githubusercontent.com/59464659/171994507-42651109-6522-41c8-8c7f-44f26a8e8f8b.png)
+
+Description: List of exchange rates for specific date of all currencies:
+
+![image](https://user-images.githubusercontent.com/59464659/171994532-ba505c76-8799-4502-8099-a72f897b8200.png)
+
+Description: List of exchange rates for specific date of specific currency:
+
+![image](https://user-images.githubusercontent.com/59464659/171994547-e328fd93-3bcc-42b1-a1c3-2312f3c9d161.png)
+
+Description: Converts the mentioned currency of input date to EUR:
+
+![image](https://user-images.githubusercontent.com/59464659/171994569-3f244fc3-33ee-4407-92cb-8beaaca0d35d.png)
+
+
