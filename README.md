@@ -32,10 +32,6 @@ The project was generated through the Spring initializer [1] for Java
 $ mvn spring-boot:run
 ````
 
-After running, the project, switch to your browser and hit http://localhost:8080/api/currencies. You should see some 
-demo output. 
-
-
 [1] https://start.spring.io/
 
 [2] [Bundesbank Daily Exchange Rates](https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_sdks_b01012_3&treeAnchor=WECHSELKURSE)
