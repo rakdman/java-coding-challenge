@@ -49,6 +49,13 @@ demo output.
 [2] [Bundesbank Daily Exchange Rates](https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_sdks_b01012_3&treeAnchor=WECHSELKURSE)
 
 
+#### Features
+
+The loading of the data into H2 database is done using RestTemplate API and used multithreading to speed up the loading. 
+Controller, Service, Entity are developed to serve the below mentioned REST endpoints.
+Test cases are written using junit and mockito.
+Lombook used to minimize the boilerplate code.
+
 
 #### Endpoints
 
